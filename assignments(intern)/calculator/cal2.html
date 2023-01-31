@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <link rel="stylesheet"  href="./styles2.css" />
+    <script src="https://kit.fontawesome.com/9300c82c27.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="heading" >
+    <h1>Calculator for kids </h1>
+    <img src="./child.png"/>
+    </div>
+    <div class="cal2">
+        <div class="input"></div>
+            Value1:<input id="num1" type="text" >
+            Value2:<input id="num2" type="text" >
+            
+          
+            
+        </div>
+        <br/>
+        <h2 id="ans"></h2>
+        <div class ="op">
+            <button class="btn"onclick="solve('+')">Add</button>
+            <button class="btn"onclick="solve('-')">Subtract</button>
+            <button class="btn"onclick="solve('*')">Multiply</button>
+            <button class="btn"onclick="solve('/')">Divide</button>
+            <button class="btn"onclick="output()">Submit</button>
+            
+            
+    
+        </div>
+    
+    </div>
+    
+
+    </div>
+        <script src="./cal2.js"></script>
+    
+</body>
+</html>

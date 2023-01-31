@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 60px;
+    padding-top: 10px;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:10px px 00px 0px;
+    border: 0px;
+    margin-left: 225px;
+   }
+#out{
+    padding:10px 0px 10px 0px;
+    
+}
+
+.row{
+    justify-content: center;
+    ;
+    
+}
+.btn{
+    padding:10px 10px 10px 7px;
+    color: rgb(0, 0, 0);
+    border-radius:75px;
+    border: 0px;
+    width: 40px;
+    font-size: 1.2em;
+    font-style:normal ;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: inset 3px 2px  #c9c1c1 ;
+               
+   
+
+}
+.btn:hover{
+    box-shadow: 5px 10px 10px #c9c1c1 ;
+
+}
+#text{
+    height: 30px;
+    border: 0cm;
+    border-radius: 5px;
+    font-size: 2em;
+    
+   
+   
+}
+ h1{
+    color: rgb(18, 19, 20);
+    text-align: center;
+ }
+
+ .cal2{
+    margin-top: 50px;
+    justify-content: center;
+    
+ }
+ .op{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .input{
+    display: flex;
+    
+ }
+ #data{
+    width: 175px;
+ }
+ 
